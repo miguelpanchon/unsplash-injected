@@ -1,0 +1,124 @@
+/* Footer container */
+#footer {
+  position: fixed;
+  top: 2px;
+  /* right:0; */
+
+  height: 34svh;
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);
+  overflow-x: hidden;
+  width: 99%;
+  
+  display:flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+
+  border-radius:var(--border-radius);
+  
+  margin:0;
+  padding:0;
+  padding-top: 12px;
+  padding-bottom: 0px;
+  /* margin-right:3px; */
+  padding-right:0;
+  border-bottom: 1px solid black;
+
+
+    /* SVG background */
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./background2.svg");
+    /* background tool and author
+    https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/
+    <a href="https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/">Free SVG Backgrounds and Patterns by SVGBackgrounds.com</a> */
+  
+}
+
+/* List styling */
+#footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Link styling */
+#footer ul li {
+  display: inline-block;
+  padding: 3px 6px; 
+ 
+}
+
+#footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Add general styles for the footer here */
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  gap:0;
+}
+
+.ul{
+margin:0;
+padding:0;
+gap:0;
+}
+
+.li {
+margin:0;
+padding:0;
+gap:0;
+}
+
+
+/* Add styles for list items if needed */
+.list-item {
+  /* Add styles for list items here */
+  margin:0;
+  padding:0;
+}
+
+
+@media (width< 543px) {
+  #footer {
+    position: fixed;
+    top: 0px;
+    /* right:0; */
+
+    height: 34svh;
+  
+    /* padding-bottom: 43px; */
+    /* margin-left: 24px; */
+
+  }
+}
+
+@media (width < 362px) { 
+  
+  
+  #footer {
+    /* top:0px;
+    width: 99%;
+    height: 9svh;
+    z-index: 1; 
+    transform: translateZ(0); 
+    overflow: hidden;
+    padding-top: 23px; */
+    margin:0px;
+    padding:0px;
+    margin-right:2svw;
+    /* padding-bottom: 76px; */
+    height: 34svh;
+  }
+}

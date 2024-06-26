@@ -1,0 +1,38 @@
+posibles mejoras
+
+cuando no encuentra foto -> controlar que va bien
+
+
+nice to have -> evento: añadir que cuando se haga click en la caja borre el contenido
+
+
+reseteo inicial
+    * margen padding =0
+    box-seizing: border-box
+    algo de tipografía: ejemplo roboto
+    text decoration none
+
+poner colores generales en root 
+y los de cada componente en su hoja de estilos.
+
+probar a ver qué mas se puede poner como variable: background? ficheros?
+
+border radius: ponerlo en styles o en algun otro sitio como variable
+
+
+como trabaja el profe:
+
+desktop first
+reseteo inicial
+coger colores y meter en variables
+margenes - definir varios y meterlo en variables
+border radius
+propiedades de los textos: text-n1: 28px, etc
+...todo al archivo básico de estilos
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <!-- enable media queries and responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Miguel Panchon">
+  <meta name="keywords" content="search, images, pics, pixs, select images">
+  <meta name="description" content="Web page that fetches pictures from Unsplash via an endpoint (API)">
+  <title>Pinterest5</title>
+</head>
+
+
+<body>
+  <div class="spinner">
+    <div class="spinner-inner">
+      <div class="spinner-circle">
+      </div>
+    </div>
+  </div>
+
+  <footer id="footer"> </footer>
+  <header id="header"> </header>
+  <main id="app"> </main>
+
+
+  <script>
+    // select the spinner element
+    const spinner = document.querySelector('.spinner');
+
+    // function to show the spinner
+    const showSpinner = () => {
+      spinner.style.display = 'block';
+      console.log("spinner started")
+    }
+
+    // function to hide the spinner
+    const hideSpinner = () => {
+      spinner.style.display = 'none';
+      console.log("spinner ended")
+    }
+
+    // show the spinner
+    showSpinner();
+
+    // wait for 5 seconds before hiding the spinner
+    setTimeout(() => {
+      hideSpinner();
+
+    }, 3000);
+  </script>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>

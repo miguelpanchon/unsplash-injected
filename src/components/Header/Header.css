@@ -1,0 +1,84 @@
+#header {
+  position: fixed;
+  top: -61px;
+  width:100svw;
+
+    display:inline-flex;
+    flex-direction: row;
+    border-radius:var(--border-radius);
+    /* background-color:  #61777F; */
+
+    align-items:center;
+    margin:0;
+    margin-top: 175px;
+    padding:0;
+    padding-bottom: 5px;
+
+    min-height: 50px;
+    max-width: fit-content;
+    z-index: 1;
+    overflow-x: hidden;
+
+/* SVG background */
+background-position: center center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url("./background2.svg");
+/* background tool and author
+https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/
+<a href="https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/">Free SVG Backgrounds and Patterns by SVGBackgrounds.com</a> */
+
+
+    
+}
+
+@media (width< 634px) {
+  #header {
+      top:-65px;
+  }
+}
+
+@media (width< 543px) {
+    #header {
+     margin-left: 11px;
+     top:-69px;
+    }
+}
+
+@media (width < 362px) { 
+    #header {
+      position: fixed;
+      align-items:bottom;
+      top: 7px;
+      width: 100%;
+      z-index: 1; 
+      margin:0;
+      margin-right:2svw;
+      margin-top: 40px;
+      margin-bottom:15px;
+      padding:0;
+      padding-bottom:0px;
+      height:108px;
+    }
+  }
+  
+@media (width < 300px) { 
+  #header {
+    position: fixed;
+    align-items:bottom;
+    top: 7px;
+    width: 100%;
+    z-index: 1; 
+    margin:0;
+    margin-right: 2svw;
+    margin-top: 40px;
+    margin-bottom:15px;
+    
+    padding:0;
+    padding-bottom:0px;
+    height:108px;
+
+  }
+
+}

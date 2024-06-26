@@ -1,0 +1,52 @@
+/* unsplash logo */
+
+.Logo1 {
+  position: fixed;
+  top: 20px;
+  left:5svw;
+    height: auto;
+    width:15svw;
+    padding-top: 0px; 
+    margin-right:62px;
+    padding-right:0px;  
+    border: 3px solid black;
+}
+
+    .logo {
+        height: 6em;
+        padding: 1.5em;
+        will-change: filter;
+        transition: filter 300ms;
+        
+      }
+      .logo:hover {
+        filter: drop-shadow(0 0 2em #646cffaa);
+      }
+      .logo.vanilla:hover {
+        filter: drop-shadow(0 0 2em #f7df1eaa);
+      }
+
+      @media (width< 900px) {
+        .Logo1 {
+          left:4svw;
+        }
+      }
+      @media (width< 850px) {
+        .Logo1 {
+          left:4svw;
+        }
+      }
+      @media (width< 800px) {
+        .Logo1 {
+          left:3svw;
+          
+        }
+      }
+
+
+
+      @media (width< 772px) {
+        .Logo1 {
+          display:none;
+        }
+      }

@@ -1,0 +1,124 @@
+/* inputbutton.css */
+
+/* Add general styles for the input box and button here */
+#SearchImages {
+  --foreground-color: #FFFFFF;    ;
+  --background-color:     #61777F;
+  --inputBackColor: yellow;
+  --fontColor:black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #61777F;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.search-input {
+  width: 135px;
+  padding: 10px;
+  margin-right:20px;
+  font-size: 16px;
+  /* margin-right: 10px; */
+  background-color: #E0E0E0;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(195, 26, 26, 0.2);
+  color: var(--fontColor);
+  }
+  
+ .search-button {
+  background-color:#E0E0E0;
+  color: #61777F;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 38px;
+  }
+
+  .search-button:hover {
+    background-color:  #FFFFFF;
+    
+    border-color: #007bff;
+    box-shadow: 0 0 5px yellow;
+  }
+
+/* nuevo 
+ */
+  
+
+ /* #header {
+  background-color: #61777F;
+ } */
+
+.input-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px; 
+  background-color: #61777F;
+}
+
+.input-box {
+  width: 50%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  /* margin-right: 10px; */
+}
+
+.button-search {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-search:hover {
+  background-color: #45a049;
+}
+
+@media (width < 362px) { 
+  .Logo2 {
+ display:none  }
+
+ .input-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px; 
+  padding:0px;
+  margin-left:31px;
+  padding-left:0px;
+  /* background-color: #61777F; */
+
+    /* SVG background */
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./background2.svg");
+    /* background tool and author
+    https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/
+    <a href="https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/">Free SVG Backgrounds and Patterns by SVGBackgrounds.com</a> */
+  
+
+
+}
+
+.search-input {
+  width: 135px;
+  margin-bottom: 3svw; 
+  
+  }
+
+}
